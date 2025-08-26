@@ -14,7 +14,7 @@ const divide = (arr, n) => {
 		for(let j=i; j<n; j++){
 			const subArr = [];
 			for(let k=i; k<=j; k++){
-				subArr.push(arr[j])
+				subArr.push(arr[k])
 			}
 			if(sumArr(subArr) <= n){
 				result.push(subArr)
